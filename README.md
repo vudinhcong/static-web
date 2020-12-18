@@ -2,7 +2,7 @@
 
 Bài thực hành của em là 1 website gồm 2 trang chính là trang chủ và ẩm thực. Website có tên là ViVuHàNội viết về những địa danh cũng nhưng ẩm thực của Hà Nội.
 *Nội dung các trang
-# Trang chủ
+1.Trang chủ
   Bố cục Trang chủ của em e chia làm 4 phần:
   +) phần đầu tiên chứa menu
   +) phần thứ hai chứa nội dung 
@@ -21,6 +21,8 @@ Bài thực hành của em là 1 website gồm 2 trang chính là trang chủ v�
     +)Về Javascript: để check xem người dùng đã nhập đúng email hay chưa khi người dùng nhấn vào nút đăng ký nếu vị trí của @ đặt sai thì nó sẽ báo lỗi email không hợp lệ
   - Phần cuối cùng là footer
     +)Về HTML: em có chia footer thành 2 phần ft-left và ft-right là bên trái và bên phải, bên trái là tên trang, bên phải dụng thẻ h3 với thẻ p để liệt kê một số ẩm thực và điểm đến nổi bật ở Hà Nội
+ 2. Trang Ẩm Thực
+ 
     
     
     
