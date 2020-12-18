@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="amthuc.css">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <link href = "https://fonts.googleapis.com/css2? family = Anton & display = swap" rel = "stylesheet ">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Ẩm Thục Hà Nội</title>
+    <script>
+        function kiemtra(){
+            //lấy dữ liệu của ô nhập email , trả về cái giá trị mình nhập vào
+            var email = document.querySelector('#email').value;
+            //trả về cái vị trí của @
+            var check_email = email.indexOf("@");
+            //nếu @ ở vị trí thứ 0 thì k hợp lệ
+            if(check_email < 1){
+                document.querySelector('#erroremail').innerHTML=`!email không hợp lệ.Vui lòng nhập lại`;
+                return false;
+            }else{
+                document.querySelector('#erroremail').innerHTML=``;
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div class="header">
+        <div class="menu">
+            <h2>ViVuHàNội</h2>
+            <ul>
+                <li><a href="trangchu.html">Trang Chủ</a></li>
+                <li><a href="">ẨM Thực-Địa Danh</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="tren">
+        <div class="new">
+            <div class="logo">
+                <img style="width:60px" src="image/ngon1.png">
+                <h2 style="float: right; margin-right:909px; margin-top:12px;font-size: 30px;font-family: 'Langar', cursive;">Ẩm Thực Hà Nội</h2>
+            </div>
+            <div class="row">
+                <div class="anh">
+                    <img src="image/taopho.jpg" alt="">
+                    <h3>Tào Phớ</h3>
+                    <p></p>
+                </div>
+                <div class="anh">
+                    <img src="image/hoaquadam.jpg" alt="">
+                    <h3>Hoa Quản Dầm</h3>
+                    <p></p>
+                </div>
+                <div class="anh">
+                    <img src="image/suachua.jpg" alt="">
+                    <h3>Sữa Chua</h3>
+                    <p></p>
+                </div>
+                <div class="anh">
+                    <img src="image/caramen.jpg" alt="">
+                    <h3>Caramen</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="anh">
+                    <img src="image/che.jpg" alt="">
+                    <h3>Chè </h3>
+                    <p></p>
+                </div>
+                <div class="anh">
+                    <img src="image/com.jpg" alt="">
+                    <h3>Cốm</h3>
+                    <p></p>
+                </div>
+                <div class="anh">
+                    <img src="image/banhcom.jpg" alt="">
+                    <h3>Bánh Cốm</h3>
+                    <p></p>
+                </div>
+                <div class="anh">
+                    <img src="image/kem.jpg" alt="">
+                    <h3>Kem</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="phantrang">
+                <a href="amthuc1.html">&laquo;</a>
+                <a href="amthuc1.html">1</a>
+                <a href="amthuc2.html">2</a>
+                <a href="amthuc3.html">3</a>
+                <a href="amthuc4.html">4</a>
+                <a href="amthuc5.html">5</a>
+                <a href="amthuc5.html">&raquo;</a>
+            </div>
+        </div>
+    </div>
+    <div class="giua">
+        <div class="news">
+            <div class="logo1">
+                <img style="width:60px" src="image/ngon1.png">
+                <h2 style="float: right; margin-right:820px; margin-top:12px;font-size: 30px;font-family: 'Langar', cursive;">Địa Điểm Món Ăn Ngon</h2>
+            </div>
+            <div class="bao">
+                <div class="news-left">
+                    <div class="left-tren">
+                        <div class="t-l">
+                            <img src="image/phothin.jpg">   
+                        </div>
+                        <div class="t-r">
+                            <p style="font-size: 30px;">Phở Thìn Lò Đúc-Phở Gia Truyền Hà Nội<p>
+                            <p style="color: #0472be; font-size: 16px; margin-top: 15px;"><i class="fa fa-map-marker" aria-hidden="true">13 Lò Đúc-Quận Hai Bà Trưng-Hà Nội</i></p>
+                            <div class="start" style="margin-top: 15px;">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                (3)
+                                <i style="margin-left: 40px; color: #8a8b8c; font-size: 20px;" class="fa fa-comments" aria-hidden="true"></i>
+                                100 Bình luận
+                            </div>
+                            <div class="thoigian" style="margin-top: 15px;">
+                                <p style="color: #05cd15;font-size: 18px;"><i style="color: black;" class="fa fa-clock-o" aria-hidden="true"></i>
+                                Thời gian mở cửa <strong style="color: black;">06:00 - 20:30</strong></p>
+                            </div>
+                            <div class="gia" style="margin-top: 15px;">
+                                <p style="color: red; font-size: 17px;">Giá: <strong>40.000đ - 60.000đ</strong></p>
+                            </div>
+                            <hr style="color: #ccc; margin-top: 20px;">
+                            <div class="gioithieu" style="margin-top: 15px;">
+                                <p style="font-size: 18px;">Phở Thìn Lò Đúc là một món ăn rất nổi tiếng ở Hà Nội có danh tiếng không chỉ giới hạn ở thủ đô, thương 
+                                    hiệu này đã được "xuất ngoại" và làm hài lòng du khách không chỉ trong nước mà còn cả
+                                    du khách quốc tế.</p>
+                                <p style="margin-top: 15px; font-size: 18px;">Thực đơn tại phở Thìn số 13 Lò Đúc chỉ duy nhất một món: phở tái lăn, song chưa lúc nào quán vãn khách. Món phở này có sức hút kì lạ đối với những người sành ăn ở chốn Hà thành bởi thứ nước lèo thơm béo, thịt bò xào tái ngấm gia vị ngọt mềm.</p>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="left-duoi">
+                        <div class="img1">
+                            <img src="image/hm2.jpg" alt="">
+                            <h3>Phở Cuốn Mai Hương</h3>
+                            <p>Đ/c:25 Ngũ Xá - Ba Đình - Hà Nội</p>
+                        </div>
+                        <div class="img1">
+                            <img src="image/bunthangcaugo.jpg" alt="">
+                            <h3>Bún Thang Cầu Gỗ</h3>
+                            <p>Đ/c:32 Cầu Gỗ - Hoàn Kiếm - Hà Nội</p>
+                        </div>
+                        <div class="img1">
+                            <img src="image/bunchahl.jpg" alt="">
+                            <h3>Bún Chả Obama</h3>
+                            <p>Đ/c:24 Lê Văn Hưu - Bà Trưng - Hà Nội</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-right">
+                    <img src="image/anh1.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="apchot">
+        <div class="newss">
+            <div class="logo2">
+                <img style="width:60px" src="image/ngon1.png">
+                <h2 style="float: right; margin-right:940px; margin-top:12px;font-size: 30px;font-family: 'Langar', cursive;">Video Món Ăn</h2>
+            </div>
+            <div class="bao1">
+                <div class="newss-l">
+                    <div class="row">
+                        <div class="video">
+                            <iframe  src="https://www.youtube.com/embed/qhGVJPxUOec"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <h3>Hướng Dẫn Làm Món Phở Bò</h3>
+                        </div>
+                        <div class="video">
+                            <iframe src="https://www.youtube.com/embed/RBrUCZIbtf0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <h3>Hướng Dẫn Làm bánh cuốn</h3>
+                        </div>
+                        <div class="video">
+                            <iframe  src="https://www.youtube.com/embed/VCdSH6XAdqo"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <h3>Hướng Dẫn Làm Món Bún Chả </h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="video">
+                            <iframe  src="https://www.youtube.com/embed/j3Fyrf7SZJ0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <h3>Làm Món Bún Đậu Mắm Tôm</h3>
+                        </div>
+                        <div class="video">
+                            <iframe  src="https://www.youtube.com/embed/whzjhEO2lok"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <h3>Hướng Dẫn Làm Món Bún Ốc</h3>
+                        </div>
+                        <div class="video">
+                            <iframe  src="https://www.youtube.com/embed/LBNinctdH7U" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <h3>Làm Món Bún Riêu Cua </h3>
+                        </div>
+                    </div>      
+                </div>
+                <div class="newss-r">
+                    <div class="row1">
+                        <img src="image/bunthang.jpg">
+                        <a href=""><p>Làm món bún thang</p></a>
+                        <hr>
+                        <img src="image/banhducnong.jpg">
+                        <a href=""><p>Làm bánh đúc nóng</p></a>
+                        <hr>
+                        <img src="image/chaca.jpg">
+                        <a href=""><p>Làm chả cá</p></a>
+                        <hr>
+                        <img src="image/banhmisotvang.jpg">
+                        <a href=""><p>Làm bánh mí sốt vang</p></a>
+                        </a>
+                    </div>    
+                </div>    
+            </div>
+        </div>
+    </div>
+    <div class="cuoi">
+        <div class="cuoit">
+            <img style="width:60px" src="image/ngon1.png">
+            <h2 style="float: right; margin-right:965px; margin-top:12px;font-size: 30px;font-family: 'Langar', cursive;">Sự Kiện Hót</h2>
+        </div>
+        <div class="cuoid">
+            <div class="dt">
+                <div class="dtl">
+                    <div class="anh1">
+                        <img src="image/sk1.jpg" alt="">
+                        <h2>Sự Kiện Lễ Hội Ẩm Thực Canada Tại Hà Nội</h2>
+                        <p>Sự kiện mở đầu cho tháng ẩm thực Canada tại Việt Nam diễn ra tại Khách sạn Sheraton, Hà Nội, tối 10/11/2016 nhằm quảng bá đặc sản ẩm thực xứ sở lá phong với người tiêu dùng Việt Nam.
+                            Nhiều đối tác của cả hai nước đã tham gia tài trợ và tạo nên thành công của sự kiện như: chính quyền các tỉnh bang Alberta, British Columbia, Hiệp hội Thịt heo quốc tế và Cfoods Vietnam.</p>
+                    </div>
+                    <div class="anh1">
+                        <img src="image/sk2.jpg" alt="">
+                        <h2>Nhiều hoạt động ý nghĩa và độc đáo tại sự kiện ẩm thực "Vedan - Biết nấu ăn là chuẩn Oppa"</h2>
+                        <p>Nhằm quảng bá và chia sẻ văn hóa ẩm thực Việt, sự kiện lần này không chỉ là cơ hội để trải nghiệm thực tế nét văn hóa ẩm thực đặc sắc của dân tộc, các thực khách còn được thưởng thức miễn phí các món trứ danh do “Vua đầu bếp” Thanh Cường chế biến.Sự kiện được tổ chức tại Công viên Thống Nhất (Hà Nội)</p>
+                    </div>
+                    <div class="anh1">
+                        <img src="image/sk3.png" alt="">
+                        <h2>'Vua đầu bếp' tham gia sự kiện ẩm thực tại Hà Nội</h2>
+                        <p>Chương trình diễn ra vào ngày 17/3 tại công viên Thống Nhất (Hà Nội) với thông điệp "Đàn ông cũng có thể nấu ăn" , Vedan mong muốn các đáng mày râu sẽ cùng sẻ chia việc nấu nướng với phụ nữ để vun đắp hạnh phúc.Tại đây, các đấng mày râu sẽ có cơ hội trải nghiệm vào bếp, còn phái nữ được thư giãn, vẽ móng miễn phí.   Chương trình có khu vui chơi trẻ em với rất nhiều trò chơi vận động, trí tuệ bổ ích.</p>
+                    </div>
+                </div>
+                <div class="dtr">
+                    <img src="image/anh2.jpg" alt="">
+                </div>
+            </div>
+            <div class="dd">
+                <div class="row">
+                    <div class="anh2">
+                        <img src="image/sk4.jpg" alt="">
+                        <h3>Thịt bò Tây Ban Nha "Chào sân" thì trường Việt Nam</h3>
+                    </div>
+                    <div class="anh2">
+                        <img src="image/sk5.jpg" alt="">
+                        <h3>Tiệc Finger Food - những mẫu bánh thường sử dụng</h3>
+                    </div>
+                    <div class="anh2">
+                        <img src="image/sk6.jpg" alt="">
+                        <h3>8 trường phái ẩm thực Trung Hoa - tinh túy</h3>
+                    </div>
+                    <div class="anh2">
+                        <img src="image/sk7.jpg" alt="">
+                        <h3>Những quy tắc ăn uống "bất thành văn" của các quốc g    ia</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dangky">
+        <div class="mail" style="text-align: center; ">
+            <p style="font-size: 25px;">Đăng ký mail để nhận những thông tin hữu ích.</p>
+        <p style="font-size: 18px;">Tin tức địa danh, ẩm thực hữu ích sẽ được gửi đến bạn</p>
+        </div>
+        <div class="check" style="text-align: center;">
+            <input style="width:250px; height:35px; border-radius:5px; margin-top: 10px;" type="text" id="email" placeholder="Email của bạn">
+            <button style="width:150px; height:40px; border-radius:20px; background: #c00000 ;color: white;" onclick="kiemtra()">Đăng Ký</button>
+            <div id="erroremail" class="error"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="ft-left">
+            <h2>ViVuHàNội</h2>
+            <p>Khám phá Hà Nội trong tầm tay</p>
+        </div>
+        <div class="ft-right">
+            <div class="ft-right-left">
+                <h3>Ẩm Thực</h3>
+                <p>Phở Hà Nội</p>
+                <p>Bánh Cuốn Hà Nội</p>
+                <p>Bún Ốc Hà Nội</p>
+                <p>Bún Chả Hà Nội</p>
+                <p>Bún Riêu Cua Hà Nội</p>
+                <p> Bánh Đa Cua Hà Nội</p>
+            </div>
+            <div class="ft-right-right">
+                <h3>Điểm Đến</h3>
+                <p>Lăng Bác</p>
+                <p>Hồ Gươm </p>
+                <p>Văn Miếu </p>
+                <p>Phố cổ</p>
+                <p>Nhà Thờ Lớn</p>
+                <p>Hồ Tây</p>
+            </div>
+        </div>
+    <script>
+        //Lấy nút
+        var mybutton = document.getElementById("myBtn");
+        //Khi cuộn xuống 20px từ đầu trang, hiển thị nút
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        //Khi bấm vào nút, cuộn lên trang đầu
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f5f2f2;
+    width: 100%;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color:#ccc;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius:4px;
+}
+#myBtn:hover {
+    background-color: #555;
+}
+.container{
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    height: 680px;
+}
+.banner .top{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+}
+.banner .top h2{
+    font-family: 'Langar', cursive;
+    font-size: 60px;
+    color: white;
+    text-shadow: 1px 1px 2px red, 0 0 25px blue, 0 0 5px darkblue;  
+    position: absolute;
+    top: 0px;
+    margin-left: 250px;
+}
+.banner .top ul{
+    font-family: 'Piazzolla', serif;
+    position: absolute;
+    list-style-type: none;
+    top: 0px;
+    right: 0px;
+    margin-top: 25px;
+    margin-right: 200px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.banner .top ul li{
+    margin-left: 30px;
+    display: inline-block;
+}
+.banner .top ul li a{
+    text-decoration:none ;
+    color: #fff;
+    font-size: 25px;
+}
+.banner .top ul li a:hover{
+    color: rgb(58, 206, 132);
+}
+.banner .bootom{
+    margin-bottom: 150px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 170px;
+}
+.banner .bootom p{  
+    font-family: 'Langar', cursive;
+    font-size: 18px;
+    margin-left: 450px;
+    text-shadow: 4px 4px 8px #fff;
+    color: #160ab9;
+    font-family: 'Anton', sans-serif;
+}
+.banner .bootom h4{
+    border-left: 1px solid #ccc;
+    margin-left:450px ;
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px black;  
+}
+.content{
+    height: 13150px;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'Anton', sans-serif;   
+}
+.content .content-left{
+    width: 69%;
+    float: left;
+}
+.content .content-left .mucluc{
+    border: 1px  solid #ccc;
+    width: 49%;
+    margin: auto;
+}
+.content .content-left .mucluc ul{
+    margin: 10px;
+    list-style-type: none;
+}
+.content .content-left .mucluc a{
+    font-size: 17px; 
+    color: black;
+    text-decoration:none ;
+    text-shadow: 1px 1px 2px rgb(167, 154, 154);  
+}
+.content .content-left .mucluc a:hover{
+    text-decoration: underline;
+}
+hr{
+    margin-top: 20px;
+}
+.p{
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: center;
+}
+.content .content-left .mot .img1{
+    width: 90%;
+    margin: auto;
+}
+.content .content-left .mot .img1 img{
+    width: 100%;
+    height: 500px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.content .content-left .mot .img1 p{
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: center;
+}
+.content .content-left .hai .img2{
+    width: 80%;
+    margin: auto;
+}
+.content .content-left .hai .img2 img{
+    width: 100%;
+    height: 500px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.content .content-left .hai .img2 p{
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: center;
+}
+.content .content-left .hai .img3{
+    width: 90%;
+    margin: auto;
+}
+.content .content-left .hai .img3 img{
+    width: 100%;
+    height: 500px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.content .content-left .hai .img3 p{
+    font-size:  16px;
+    margin-top: 15px;
+    text-align: center;
+}
+.content .content-left .ba .img4{
+    width: 80%;
+    margin: auto;
+}
+.content .content-left .ba .img4 img{
+    width: 100%;
+    height: 500px;
+    margin-top: 15px;
+    border-radius: 10px;
+}.content .content-left .ba .img4 p{
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: center;
+}
+.content .content-right{
+    width: 30%;
+    /* height: 1200px; */
+    float: right;
+    position: sticky;
+    top: 70px;
+}
+.example{
+    margin-bottom: 20px;
+}
+form.example .search {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+    margin-left: 14px;
+}
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+form.example button:hover {
+    background: #0b7dda;
+}
+form.example::after {
+    content: "";
+    display: table;
+}
+.dangky{
+    margin-top: 20px;
+    width: 100%;
+    height: 120px;
+    background-image: url(../image/3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.dangky .mail{
+    width: 100%;
+    margin-top: 10px;
+}
+.error{
+    color: red;
+    margin-right: 155px;
+}
+.footer{
+    width: 100%;
+    height: 210px;
+    background: black;
+    clear: left;
+}
+.footer .ft-left{
+    width: 40%;
+    height: 200px;
+    float: left;
+}
+.footer .ft-left h2{
+    font-family: 'Langar', cursive;
+    font-size: 100px;
+    color: white;
+    text-shadow: 1px 1px 2px red, 0 0 25px blue, 0 0 5px darkblue;  
+    text-align: center;
+}
+.footer .ft-left p{
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px 8px #fff;
+    font-size: 18px;
+}
+.footer .ft-right{
+    width: 58%;
+    height: 200px;
+    float: right;
+}
+.footer .ft-right .ft-right-left{
+    border-left: 1px solid #ccc;
+    margin-top: 10px;
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+.footer .ft-right .ft-right-left h3{  
+    margin-top: 5px; 
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.footer .ft-right .ft-right-left p{
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+}
+.footer .ft-right .ft-right-right{
+    border-left: 1px solid #ccc;
+    width: 49%;
+    height: 200px;
+    float: right;
+    margin-top: 10px;
+}
+.footer .ft-right .ft-right-right h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.footer .ft-right .ft-right-right p{
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+}
+
