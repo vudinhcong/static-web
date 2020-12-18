@@ -3,11 +3,11 @@
 Bài thực hành của em là 1 website gồm 2 trang chính là trang chủ và ẩm thực. Website có tên là ViVuHàNội viết về những địa danh cũng nhưng ẩm thực của Hà Nội.
 ### Nội dung các trang
 #### 1. Trang chủ
-  ##### Bố cục Trang chủ của em e chia làm 4 phần:
+  ##### Bố cục Trang chủ của em chia làm 4 phần:
   - phần đầu tiên chứa menu
-  -  phần thứ hai chứa nội dung 
-  -  phần thứ 3 đăng ký email để gửi thông tin khi có bài viết mới
-  -  cuối cùng là footer
+  - phần thứ hai chứa nội dung 
+  - phần thứ 3 đăng ký email để gửi thông tin khi có bài viết mới
+  - cuối cùng là footer
   1. Phần đầu tiên:
     - Về HTML: em có tạo ra 1 div lớn container bên trong có div banner để chứa ảnh và nội dung, trong div banner sẽ là một cái banner có chiều rộn width 100% , chiều cao      height 680px trong cái ảnh đó em chia làm 2 phần phần làm 2 thẻ div (top) và div(bootom).Div top gồm thẻ h2 chứa tên trang Web và 3 tiêu đề mục con, div bootom gồm thẻ p và h4 
     - Về CSS:div top em có đặt cho nó position: fixed để khi kéo chuột xuống sẽ nằm im ở trên đầu, dùng position: absolute với các thẻ h2, ul, bootom để cho chũ nằm ở trên banner,em còn dùng một vài font chữ khác nhau và text-shadow để tạo độ bóng cho chữ mà mình muốn.
