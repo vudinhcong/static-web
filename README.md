@@ -1,8 +1,8 @@
 # static-web
 
 Bài thực hành của em là 1 website gồm 2 trang chính là trang chủ và ẩm thực. Website có tên là ViVuHàNội viết về những địa danh cũng nhưng ẩm thực của Hà Nội.
-*Nội dung các trang
-1.Trang chủ
+### Nội dung các trang
+1. Trang chủ
   Bố cục Trang chủ của em e chia làm 4 phần:
   +) phần đầu tiên chứa menu
   +) phần thứ hai chứa nội dung 
